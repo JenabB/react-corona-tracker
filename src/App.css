@@ -1,8 +1,5 @@
-.wow {
-  background-color: #EDF2F7;
-  height: 100vh;
-}
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
