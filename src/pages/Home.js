@@ -1,12 +1,16 @@
-import React from 'react';
-import Header from './home/Header';
-import Main from './home/Main';
+import React from "react";
+import DataProvinsi from "./home/DataProvinsi";
+import Header from "./home/Header";
+import RumahSakit from "./home/RumahSakit";
+import Vaksin from "./home/Vaksin";
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <Main />
+      <DataProvinsi />
+      <Vaksin />
+      <RumahSakit />
     </div>
   );
 };

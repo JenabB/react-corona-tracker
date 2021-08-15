@@ -1,11 +1,11 @@
-import React from 'react';
-import Navigation from './Navigation';
-import './App.css';
+import React from "react";
+import Home from "./pages/Home";
+import "./App.css";
 
 const App = () => {
   return (
     <div>
-      <Navigation />
+      <Home />
     </div>
   );
 };
