@@ -14,14 +14,11 @@ const Header = () => {
         className="bg-green-400 lg:rounded-b-full sm:rounded-b-xl pt-4 px-10"
         style={{ height: "200px" }}
       >
-        <h1 className="text-center font-bold text-white mb-4">
+        <h1 className="text-center font-bold text-2xl text-white mb-4">
           Corona Tracker
         </h1>
         {data ? (
           <div>
-            <div>
-              <h1>Last update</h1>
-            </div>
             <div className="grid grid-cols-4 text-center text-white">
               <div className="shadow rounded-lg mx-3 bg-blue-400 py-6">
                 <h1>Confirmed</h1>
